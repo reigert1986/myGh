@@ -4,11 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>R. Lorigador Pastor</title>
-   
+    <link rel="stylesheet" href="reloj.css">
 </head>
 <body>
     
     <p><a href="cv.html">curriculum</a></p>
 
+
+    <div id="reloj">00:00:00</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        (function() {
+            // Función para actualizar la hora
+            function actualizarReloj() {
+                const ahora = new Date();
+                let horas = String(ahora.getHours()).padStart(2, '0');
+                let minutos = String(ahora.getMinutes()).padStart(2, '0');
+                let segundos = String(ahora.getSeconds()).padStart(2, '0');
+                
+                document.getElementById('reloj').textContent = `${horas}:${minutos}:${segundos}`;
+            }
+
+            // Actualiza el reloj cada segundo
+            actualizarReloj(); // Inicializa con la hora actual
+            setInterval(actualizarReloj, 1000);
+        })();
+    </script>
 </body>
 </html>

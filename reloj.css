@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin: 0;
+    background-color: #282c34;
+    color: #61dafb;
+}
+#reloj {
+    font-size: 3em;
+}

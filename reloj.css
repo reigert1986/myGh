@@ -1,13 +1,13 @@
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-    margin: 0;
-    background-color: #282c34;
-    color: #61dafb;
-}
 #reloj {
-    font-size: 3em;
+    position: fixed; /* Mantiene el reloj en un lugar fijo */
+    top: 10px; /* Posiciona el reloj en la parte superior */
+    right: 10px; /* Posiciona el reloj en la esquina izquierda */
+    font-size: 2em; /* Tamaño de fuente más pequeño */
+    padding: 10px 20px; /* Menos padding alrededor del texto */
+    background-color: #333;
+    color: #61dafb;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 150px; /* Ajusta el ancho automáticamente */
 }

@@ -1,0 +1,10 @@
+body {
+    margin: 0; /* Elimina el margen por defecto */
+    height: 100vh; /* Altura completa de la ventana */
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Degradado de izquierda a derecha */
+    display: flex; /* Usado para centrar contenido */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    color: white; /* Color del texto */
+    font-family: Arial, sans-serif; /* Fuente */
+}

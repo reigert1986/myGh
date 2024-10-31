@@ -17,18 +17,25 @@ main {
     
 }
 aside {
-    border: 3px solid green;
     width: 250px;
     padding: 20px;
     margin-top: 25px;
-    border: 1px solid #26b250;
     background-color: #2c1717;
     position: fixed; /* Para que se quede en la posición derecha */
     right: 10px; /* Distancia desde el borde derecho */
     top: 50px; /* Ajusta la distancia desde la parte superior */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle efecto de recuadro */
-
+    height: 200px;
 }
+img {
+    width: 120px;
+    height: 90px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -28%);
+}
+
 
 /* para los media queries*/
 
@@ -44,9 +51,9 @@ aside {
     h1 {
         font-size: 1em;
     }
-    #reloj {
-        font-size: 1em;
-        text-align: center;
+    img {
+        margin: 20px;
+        border: 3px solid #155e05;
     }
 }
 
@@ -57,9 +64,5 @@ aside {
     h1 {
         font-size: 1em;
         margin: 10px 0;
-    }
-    #reloj {
-        width: 60px; 
-        font-size: 0.9em;
     }
 }

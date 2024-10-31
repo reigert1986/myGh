@@ -27,9 +27,14 @@ aside {
     right: 10px; /* Distancia desde el borde derecho */
     top: 50px; /* Ajusta la distancia desde la parte superior */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle efecto de recuadro */
-
+    height: 200px;
 }
-
+img {
+    width: 140px;
+    height: 90px;
+    margin: auto;
+    display: block;
+}
 /* para los media queries*/
 
 @media (max-width: 768px) {
@@ -44,9 +49,9 @@ aside {
     h1 {
         font-size: 1em;
     }
-    #reloj {
-        font-size: 1em;
-        text-align: center;
+    img {
+        margin: 20px;
+        border: 3px solid #155e05;
     }
 }
 
@@ -57,9 +62,5 @@ aside {
     h1 {
         font-size: 1em;
         margin: 10px 0;
-    }
-    #reloj {
-        width: 60px; 
-        font-size: 0.9em;
     }
 }

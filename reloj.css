@@ -12,6 +12,8 @@
     width: 150px; /* Ajusta el ancho automáticamente */
 }
 
+/* para los media queries*/
+
 @media (max-width: 768px) {
     #reloj {
         font-size: 1em;

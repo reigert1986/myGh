@@ -17,11 +17,9 @@ main {
     
 }
 aside {
-    border: 3px solid green;
     width: 250px;
     padding: 20px;
     margin-top: 25px;
-    border: 1px solid #26b250;
     background-color: #2c1717;
     position: fixed; /* Para que se quede en la posición derecha */
     right: 10px; /* Distancia desde el borde derecho */
@@ -32,8 +30,10 @@ aside {
 img {
     width: 140px;
     height: 90px;
-    margin: auto;
-    display: block;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -28%);
 }
 /* para los media queries*/
 

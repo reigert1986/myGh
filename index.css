@@ -28,13 +28,15 @@ aside {
     height: 200px;
 }
 img {
-    width: 140px;
+    width: 120px;
     height: 90px;
     position: absolute;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -28%);
 }
+
+
 /* para los media queries*/
 
 @media (max-width: 768px) {

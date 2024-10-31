@@ -1,0 +1,65 @@
+body {
+    flex-direction: column;
+
+}
+h1 {
+    font-size: 1.3em; /* Tamaño del texto */
+    margin: 20px 0; /* Espacio alrededor del título */
+    text-shadow: 1px 1px 1px #000;
+   
+}
+h2 {
+    color: blue;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    
+}
+aside {
+    border: 3px solid green;
+    width: 250px;
+    padding: 20px;
+    margin-top: 25px;
+    border: 1px solid #26b250;
+    background-color: #2c1717;
+    position: fixed; /* Para que se quede en la posición derecha */
+    right: 10px; /* Distancia desde el borde derecho */
+    top: 50px; /* Ajusta la distancia desde la parte superior */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle efecto de recuadro */
+
+}
+
+/* para los media queries*/
+
+@media (max-width: 768px) {
+    aside {
+        position: static;
+        width: 90%;
+        margin-top: 20px;
+    }
+    main {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 1em;
+    }
+    #reloj {
+        font-size: 1em;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    aside {
+        width: 50%;
+    }
+    h1 {
+        font-size: 1em;
+        margin: 10px 0;
+    }
+    #reloj {
+        width: 60px; 
+        font-size: 0.9em;
+    }
+}
